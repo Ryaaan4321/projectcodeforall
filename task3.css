@@ -1,0 +1,376 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* background-color: rgba(0, 0, 0, 0.725); */
+}
+.cunt{
+   
+    /* color: black; */
+    font-size: large;
+    /* background-color: rgba(0, 0, 0, 0.725); */
+    border: 1px solid rgba(0, 0, 0, 0);
+    height: 100px;
+    width: 100%;
+}
+.first{
+    width:45%;
+    height:80px;
+   
+    float: left;
+
+
+}
+#pic{
+    margin: 24px;
+    height: 40px;
+    width: auto;
+}
+
+/* CSS OF THE LEARN REFRENCE AND COMMUNTITY AND ALL FROM LINE 42 - 77 */
+
+.second{
+    height: 80px;
+    width: 55%;
+    float: left;
+    color: whitesmoke;
+    position: relative;
+
+   
+   
+}
+
+
+.second li{
+    color:white;
+    list-style: none;
+    float:left;
+    font-weight: bolder;
+   
+}
+
+.second ul li{
+   margin-left:25px;
+   margin-top:32px;
+   margin-right:76;
+   margin-bottom: 100px;
+   position: flex;
+   right:100px;
+   /* font-family: 'Quicksand', sans-serif; */
+   font-family: 'Raleway', sans-serif;
+   text-shadow: 12px;
+   /* position: absolute; */
+   
+
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(17, 15, 15);
+    width: 100%;
+    z-index: 5;
+}
+
+/*SEARCH BAR CSS FROM LINE 76 - 117 */
+.group {
+   display: flex;
+   line-height: 28px;
+   align-items: center;
+   position: absolute;
+   right: 10px;
+   max-width: 190px;
+   margin-top: 30px;
+}
+
+.input {
+width: 100%;
+height: 29px;
+line-height: 98px;
+padding: 0 1rem;
+padding-left: 2.5rem;
+border: 2px solid transparent;
+border-radius: 8px;
+outline: none;
+background-color: #f3f3f4;
+color: #0d0c22;
+transition: .3s ease;
+}
+
+.input::placeholder {
+ color: #9e9ea7;
+}
+
+.input:focus, input:hover {
+outline: none;
+border-color: rgba(26, 24, 25, 0.4);
+background-color: #fff;
+box-shadow: 0 0 0 1px rgba(182, 156, 166, 0.1);
+}
+
+.icon {
+position: absolute;
+left: 1rem;
+fill: #9e9ea7;
+width: 1rem;
+height: 1rem;
+}
+
+/* CSS OF JAVA C++ AND PYTHONA ND ALL FROM LINE 121 - 260 */
+
+
+.heading{
+
+color: rgb(21, 18, 18);
+margin: 20px;
+float: inline-start;
+align-items: center;
+text-align: center;
+padding: 103px;
+margin-top: 50px;
+/* background-color: rgba(0, 0, 0, 0.725); */
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+width: 70%;
+height: 300px;
+
+}
+.paragraphs{
+/* height:400px;
+width: 100%; */
+}
+
+
+
+#para1{
+color: black;
+height: 100px;
+width: 41%;
+float: left;
+/* margin: 50px; */
+padding: 33px;
+border: 2px solid rgb(23, 10, 10);
+border-radius: 10px;
+/* font-family:  */
+/* display: block; */
+margin-left: auto;
+margin-right: auto;
+margin-top: 60px;
+margin-bottom: 50px;
+align-items: center;
+justify-content: center;
+background-color: rgb(144, 199, 232); 
+
+}
+#para2{
+/* background-color:  #c98e95!important; */
+color: black;
+border: 2px solid black;
+border-radius: 10px;
+height: 100px;
+width: 41%;
+padding:41px;
+align-items: center;
+justify-content: center;
+/* display:  block ; */
+
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 2px;
+margin-top: 55px;
+
+}
+#para3{
+border: 2px solid black;
+height: 70px;
+width: 40%;
+padding:70px;
+/* margin-left: auto; */
+margin-right: 200px;
+margin-top: 30px;
+margin-left: 50px;
+margin-bottom: 620px;
+justify-content: center;
+align-items: center;
+border-radius: 8px;
+text-align: center;
+
+
+}
+#para4{
+border: 2px solid black;
+height: 70px;
+width: 30%;
+padding:70px;
+/* margin-left: auto; */
+margin-right:150px;
+/* margin-top:-110px; */
+margin-left: 630px;
+margin-bottom: 330px;
+justify-content: center;
+align-items: center;
+border-radius: 8px;
+text-align: inherit;
+/* background-color: rgb(144, 199, 232);   */
+/* transform: translate(300px,10px,100px) */
+transform: translate(1px,-124px);
+background-color: burlywood
+
+}
+#java{
+    margin: 150px;
+    height: 39px;
+    width: auto;
+    margin-top: 14px;
+    margin-bottom: 120px;
+    margin-right:90px;
+    background-color: #c98e95;
+    /* transform: translateX(100px);
+    transform: translateY(-50px);
+} */
+
+}
+
+#para2:hover{
+/* background-color:  #c98e95!important; */
+
+transform: skew(-5deg);
+
+}
+#para1:hover{
+transform: skew(1deg);
+
+/* background-color: burlywood; */
+}
+#para3:hover{
+transform: skew(-5deg);
+background-color: whitesmoke;
+
+}
+
+
+
+#para4:hover{
+/* transform: skew(-1deg); */
+/* background-color:#F3ECEA; */
+}
+a{
+text-decoration: underline;
+color: black;
+}
+#para1 a:hover {
+font-weight: 3.6rem;
+
+}
+/* CSS OF WEB DEVLOPMENT SECTION FROM LINE 264-(BUTTON active) */
+.webdiv{
+margin-top:650px;
+height: 450px;
+background-color: rgb(247, 245, 245);
+margin-bottom: 800px
+
+
+}
+.heading1{
+
+color: rgba(25, 19, 19, 0.856);
+margin: 20px;
+float: inline-start;
+align-items: center;
+text-align: center;
+padding: 103px;
+margin-top: 50px;
+/* background-color: rgba(0, 0, 0, 0.725); */
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+width: 70%;
+height: 300px;
+
+}
+
+#html{
+height: auto;
+width: 290px;
+border: 2px solid black;
+border-radius: 50px;
+margin-top: 120px;
+/* margin-bottom: -3px; */
+transform: translate(90px,30px);
+
+}
+
+#css{
+height:auto;
+width: 270px;
+border: 2px solid black;
+border-radius: 50px;
+transform: translate(310px,-220px);
+}
+#javascript{ 
+height:auto;
+width: 270px;
+border: 2px solid black;
+border-radius: 50px;
+transform: translate(560px,-260px);
+
+}
+
+#htm{
+background-color: #090909;
+color: white;
+}
+#htm:hover{
+background-color: whitesmoke;
+color:black;
+}
+#cs{
+background-color: black;
+color: white;
+}
+#cs:hover{
+background-color: whitesmoke;
+color:black;
+}
+
+#js{
+background-color: #1a1818;
+color: white;
+}
+#js:hover{
+background-color: whitesmoke;
+color:black;
+}
+
+
+
+button {
+color: #090909;
+padding: 0.7em 1.7em;
+font-size: 18px;
+margin-top: 30px;
+border-radius: 0.5em;
+background: #e8e8e8;
+border: 1px solid #e8e8e8;
+transition: all .3s;
+box-shadow: 6px 6px 12px #c5c5c5,
+     -6px -6px 12px #ffffff;
+}
+
+button:active {
+color: #666;
+box-shadow: inset 4px 4px 12px #c5c5c5,
+     inset -4px -4px 12px #ffffff;
+}
+.frameworks{
+    background-color: #c5c5b8;
+    margin-top: -799px;
+    height: 450px;
+    /* z-index: 600px; */
+    
+}
+#hh{
+    text-align: center;
+}
+.frames{
+    float: inline-start;
+    display: inline-flex;
+}
